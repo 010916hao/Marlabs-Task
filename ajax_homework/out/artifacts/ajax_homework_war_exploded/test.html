@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+        function btn(obj) {
+
+            console.log($(obj).prev().html());
+
+        }
+    </script>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Git ID</th>
+        <th>Login</th>
+        <th id="1">Followers URL</th>
+        <th id="2" onclick="btn(this)">Total Followers</th>
+        <th>Photo</th>
+    </tr>
+
+</table>
+
+
+</body>
+</html>
